@@ -18,6 +18,7 @@ function init(){
   messageDisplay.innerText = message;
   compScoreDisplay.innerText = compScore;
   userScoreDisplay.innerText = userScore;
+  body.style.backgroundColor = '#333'
 }
 
 init();

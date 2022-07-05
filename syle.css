@@ -1,0 +1,35 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons img{
+  margin: 2rem;
+  border: 1px solid #fff;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#scores{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#scores div{
+  margin: 1.5rem;
+}
+
+button{
+  background: #ccc;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+}
